@@ -1,0 +1,6 @@
+-pkg install bash
+-pip2 install bash
+-git clone link github nya Ok
+-cd loveTools
+-bash ./install
+-bash ./start

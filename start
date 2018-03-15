@@ -1,0 +1,42 @@
+#!/usr/bin/bash
+clear
+echo
+echo -e '\e[1;35m'
+figlet -f slant IES LoveTools
+echo
+echo -e '\e[1;32m' '============================================================='
+echo -e '\e[1;36m' "Author      = ALX-04 ^_<"
+echo -e '\e[1;36m' "Team        = INDONESIAN ERROR SYSTEM"
+echo -e '\e[1;36m' "Facebook    = Aldi Linalda"  
+echo -e '\e[1;36m' "Email       = aldilinalda12@gmail.com"     
+echo -e '\e[1;31m' "                        GRETS TO:  
+ Mr.:/R1zK1 | CIPPEL | r1c3-4 | AMRiezZ | Mr.BL4NGK0N4N | 
+ M4RV3L-23 | IRFAN |N4ST4R_ID | UKHWAH ISLAMIYAH | 
+ Mr.3V0LUT10N | BITCHIS | BOY NAINGGOLAN | And ALL MEMBER "
+echo -e '\e[1;32m' '============================================================='
+echo
+cowsay -f sa.cow "Buat siapa ya?" | lolcat
+echo
+toilet -f mono12 -F gay For You | lolcat
+echo -e '\e[1;36m' " I Love U ...Maukah Kau Menjadi Pacarku?? "
+echo -e "[1]ya"
+echo -e "[2]tidak"
+read -p "Jawab dong =" act;
+if [ $act = 1 ]
+then
+cowsay -f nik.cow "Thanks" | lolcat
+echo -e '\e[1;33m'
+figlet -f slant Makasih Ya :v
+echo
+echo -e '\e[1;31m' "Mulai sekarang kita pacaran .."
+exit
+fi
+if [ $act = 2 ]
+then
+cowsay -f in.cow "Yah" | lolcat
+echo -e '\e[1;33m'
+echo
+echo -e "YAH       TERTOLAK :)"
+exit
+fi
+
